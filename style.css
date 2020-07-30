@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: coral;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+   
+}
+
+.play{
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 1rem;
+    font-size: 30px;
+    text-align: center;
+    transition: all .7s;
+    background-color: rgba(222,184,135,0.3) ;
+
+}
+
+.stop{
+    transform: scale(1.3);
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+    color : yellow;
+
+
+}
