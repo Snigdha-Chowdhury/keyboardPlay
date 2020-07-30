@@ -11,27 +11,23 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.play{
+.play {
     padding: 20px;
     border: 2px solid white;
     border-radius: 1rem;
     font-size: 30px;
     text-align: center;
     transition: all .7s;
-    background-color: rgba(222,184,135,0.3) ;
-
+    background-color: rgba(222, 184, 135, 0.3);
 }
 
-.stop{
+.stop {
     transform: scale(1.3);
     border-color: yellow;
     box-shadow: 0 0 10px yellow;
-    color : yellow;
-
-
+    color: yellow;
 }
